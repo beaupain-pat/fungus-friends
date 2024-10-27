@@ -3,4 +3,3 @@ export * from "./flexCss";
 export * from "./paddingCss";
 export * from "./positionCss";
 export * from "./zIndexCss";
-export * from "./typographyCss";
