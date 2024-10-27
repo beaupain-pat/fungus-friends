@@ -10,7 +10,7 @@ import {
   paddingCss,
   positionCss,
   zIndexCss,
-} from "@/util-css";
+} from "@/utils-css";
 import { View } from "react-native";
 
 export const ViewWith = styled(View)<
