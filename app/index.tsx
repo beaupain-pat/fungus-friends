@@ -59,5 +59,6 @@ export default function HomeScreen() {
 }
 
 const ToolTipText = styled.Text`
+  font-size: ${(p) => p.theme.fontSize.base}px;
   color: ${(p) => p.theme.mainColor};
 `;

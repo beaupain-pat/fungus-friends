@@ -66,10 +66,12 @@ const SelectItem = styled.TouchableOpacity<{ isActive?: boolean }>`
 
 const Header = styled.Text`
   font-weight: bold;
+  font-size: ${(p) => p.theme.fontSize.headingDefault}px;
   color: ${(p) => p.theme.fontColor.white};
 `;
 
 const Paragraph = styled.Text<{ isActive?: boolean }>`
+  font-size: ${(p) => p.theme.fontSize.base}px;
   color: ${(p) =>
     p.isActive ? p.theme.backgroundColor : p.theme.fontColor.white};
 `;
